@@ -1,0 +1,278 @@
+.footer-top{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+
+    .main-box{
+        width: 80%;
+        height: 300px;
+        display: flex;
+
+        .box1{
+            width: 25%;
+            height: 300px;
+
+            .logo{
+                width: 100%;
+                height: 100px;
+            }
+
+            .text{
+                width: 100%;
+                height: 150px;
+                display: flex;
+                align-items: center;
+
+                .p{
+                    width: 85%;
+                    height: 140px;
+
+                    p{
+                        color: white;
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            .links{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+
+                .fa-brands{
+                    color: white;
+                    font-size: 20px;
+                }
+
+                .fa-linkedin-in{
+                    margin-left: 30px;
+                }
+
+                .fa-twitter{
+                    margin-left: 30px;
+                }
+
+                .fa-google-plus-g{
+                    margin-left: 30px;
+                }
+
+                .fa-pinterest-p{
+                    margin-left: 30px;
+                }
+            }
+        }
+
+        .box2{
+            width: 20%;
+            height: 300px;
+
+            .title{
+                width: 100%;
+                height: 100px;
+
+                h4{
+                    color: white;
+                    font-size: 22px;
+                }
+
+                .line{
+                    width: 30%;
+                    height: 6px;
+                    background-color: #ffcf10;
+                    margin-top: 10px;
+
+                    .line2{
+                        width: 50%;
+                        height: 6px;
+                        background-color: white;
+                    }
+                }
+            }
+
+            .list{
+                width: 100%;
+                height: 150px;
+
+                ol li{
+                    margin-top: 15px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        .box3{
+            width: 20%;
+            height: 300px;
+
+            .title{
+                width: 100%;
+                height: 100px;
+
+                h4{
+                    color: white;
+                    font-size: 22px;
+                }
+
+                .line{
+                    width: 30%;
+                    height: 6px;
+                    background-color: #ffcf10;
+                    margin-top: 10px;
+
+                    .line2{
+                        width: 50%;
+                        height: 6px;
+                        background-color: white;
+                    }
+                }
+            }
+
+            .posts{
+                width: 100%;
+                height: 200px;
+
+                .post1{
+                    width: 100%;
+                    height: 60px;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    p{
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+
+                .post2{
+                    width: 100%;
+                    height: 60px;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    p{
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+
+                .post3{
+                    width: 100%;
+                    height: 80px;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    p{
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .box4{
+            width: 35%;
+            height: 300px;
+
+            .title{
+                width: 100%;
+                height: 100px;
+
+                h4{
+                    color: white;
+                    font-size: 22px;
+                }
+
+                .line{
+                    width: 20%;
+                    height: 6px;
+                    background-color: #ffcf10;
+                    margin-top: 10px;
+
+                    .line2{
+                        width: 50%;
+                        height: 6px;
+                        background-color: white;
+                    }
+                }
+            }
+
+            .photos{
+                width: 100%;
+                height: 200px;
+                display: flex;
+
+                .posts{
+                    width: 60%;
+                    height: 150px;
+
+                    .line1{
+                        width: 100%;
+                        height: 75px;
+                        display: flex;
+                        justify-content: space-around;
+
+                        .photo1{
+                            width: 30%;
+                            height: 75px;
+                        }
+
+                        .photo2{
+                            width: 30%;
+                            height: 75px;
+                        }
+
+                        .photo3{
+                            width: 30%;
+                            height: 75px;
+                        }
+                    }
+
+
+                    .line2{
+                        width: 100%;
+                        height: 75px;
+                        display: flex;
+                        justify-content: space-around;
+
+                        .photo4{
+                            width: 30%;
+                            height: 75px;
+                            margin-top: 5px;
+                        }
+
+                        .photo5{
+                            width: 30%;
+                            height: 75px;
+                            margin-top: 5px;
+                        }
+
+                        .photo6{
+                            width: 30%;
+                            height: 75px;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
